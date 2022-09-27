@@ -1,0 +1,48 @@
+{% extends 'base.html' %} {% block body %} {% load crispy_forms_tags %}
+<div class="jumbotron">
+  <h1>{{title}}</h1>
+  <form method="POST" action="">
+    {% csrf_token %} {{form|crispy}}
+    <input type="submit" value="Search" class="btn btn-dark mb-4"/>
+  </form>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>CLIENT NAME</th>
+        <th>COUNTY</th>
+        <th>GENDER</th>
+          <th>AGE</th>
+        <th>COUNTY</th>
+          <th>SUB COUNTY</th>
+           <th>DATE CREATED</th>
+
+      </tr>
+    </thead>
+    {% for instance in queryset %}
+    <tr>
+{#      <td>{{forloop.counter}}<a href="{% url 'issue_items' instance.id %}"></td>#}
+      <td>{{instance.id}}
+      </td>
+      <td>
+        {{instance.client_name}}
+      </td>
+      <td>{{instance.gender}}</td>
+         <td>{{instance.DOB}}</td>
+         <td>{{instance.county}}</td>
+         <td>{{instance.sub_county}}</td>
+        <td>{{instance.date_created_client}}</td>
+      <td class="d-inline">
+        <div><a href="{% url 'update_client' instance.id %}"
+          ><div class="btn btn-warning">Edit</div></a</div>
+{#        <div><a href="{% url 'issue_items' instance.id %}"#}
+{#          ><div class="btn btn-primary">Issue</div></a</div>#}
+        <div><a href="{% url 'delete_client' instance.id %}"
+          ><div class="btn btn-danger">Delete</div></a
+        ></div>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}
