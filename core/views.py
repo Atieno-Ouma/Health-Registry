@@ -21,7 +21,7 @@ def home(request):
 
 
 
-def list_facility(request,self):
+def list_facility(request):
     title = 'Facility List'
     # Filter by Search
     form = FacilitySearchForm(request.POST or None)
