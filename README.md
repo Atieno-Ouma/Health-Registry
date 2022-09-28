@@ -26,14 +26,14 @@ d. Simple reports, and other innovative additions.
 
 To set-up and get started with the project:
 
-# {{ project_name|title }}
+
 
 # Getting Started
 
 First clone the repository from Github and switch to the new directory:
 
-    $ git clone git@github.com/USERNAME/{{ project_name }}.git
-    $ cd {{ project_name }}
+    $ git https://github.com/Atieno-Ouma/Health-Registry.git
+    $ cd Health-Registry
     
 Activate the virtualenv for your project.
 
