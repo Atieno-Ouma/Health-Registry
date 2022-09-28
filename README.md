@@ -1,4 +1,4 @@
-{% if False %}
+
 
 # Introduction
 
@@ -74,7 +74,7 @@ And then configure the`settings.py` file with your database credentials for the 
     }
     
 
-{% endif %}
+
 
 
     
