@@ -19,7 +19,9 @@ d. Simple reports, and other innovative additions.
 * Generate Report
 * Delete Entries
 
-
+ ![My Image](core/static/images/Screenshot from 2022-09-29 08-52-46.png)
+ ![My Image](core/static/images/Screenshot from 2022-09-29 08-58-33.png)
+ ![My Image](core/static/images/Screenshot from 2022-09-29 08-59-41.png)
 * MySQL Database Used as the default Database Engine
 
 # Usage
