@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dca41b2-f543-4fd1-b550-6e0282fba427" name="Changes" comment="Remove a hardcoded Django secret key" />
+    <list default="true" id="6dca41b2-f543-4fd1-b550-6e0282fba427" name="Changes" comment="Remove a hardcoded Django secret key">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/images/Screenshot from 2022-09-29 08-52-46.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/images/sc1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/images/Screenshot from 2022-09-29 08-58-33.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/images/sc2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/images/Screenshot from 2022-09-29 08-59-41.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/images/sc3.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +99,7 @@
       <workItem from="1664313306168" duration="1176000" />
       <workItem from="1664340618414" duration="9645000" />
       <workItem from="1664354027687" duration="648000" />
-      <workItem from="1664431680470" duration="1924000" />
+      <workItem from="1664431680470" duration="3493000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1664218172443</created>
